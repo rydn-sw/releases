@@ -24,6 +24,9 @@
   .vline b{ color:var(--text); }
   .also{ color:var(--soft); font-size:14px; margin:10px 0; border-top:1px solid var(--line); padding-top:10px; }
   .warn{ color:var(--gold); }
+  .privacy{ color:var(--soft); font-size:14px; line-height:1.5; margin:10px 0 4px;
+            border-left:3px solid var(--gold); padding:2px 0 2px 12px; }
+  .privacy b{ color:var(--text); }
   img.appshot{ display:block; width:100%; border:1px solid var(--line); border-radius:8px; margin:0 0 10px; }
   .dl.held{ background:var(--card); color:var(--soft); border:1px dashed var(--line); font-size:16px; cursor:default; }
   .more{ border-top:1px solid var(--line); margin:4px 0 10px; }
@@ -119,13 +122,14 @@ name and icon differ.</div>
     <a class="dl" id="dl-dostack" href="https://github.com/rydn-sw/releases/releases/download/dostack-v22/DoStack-v22.apk">&#11015;&nbsp;INSTALL DoStack v22</a>
     <p class="vline" id="v-dostack">Latest known: <b>DoStack v22</b> &middot; published 2026-09-27</p>
     <p class="also">Or use it in a browser &mdash; nothing to install: <a href="https://158-101-7-190.sslip.io/">https://158-101-7-190.sslip.io/</a><br>The address is the same for everyone. Paste your key in the <b>⚙ gear</b> menu to see your own list.</p>
+    <p class="privacy"><b>About syncing.</b> Sync is optional &mdash; without a key, DoStack stays on that one device. Turn it on and your lists are stored on a small server in Oracle Cloud so your phone and browser stay in step. The connection is encrypted, and your key is what keeps other users out of your list. Save the key when it is shown; it is not shown again. Your lists are <b>not</b> encrypted against us: we run the server and can read what is on it, so treat DoStack as a to-do list, not a place for passwords or private personal details.</p>
     <details class="more">
       <summary>Setting it up, and what's new</summary>
     <p class="subh">The first time you open it</p>
     <ol>
       <li>Start using it straight away &mdash; type in the bar at the top and the item is saved. Installing does nothing on its own.</li>
       <li>To see the same list on another phone or browser you need a <b>key</b>. Either paste one you were given into the <b>⚙ gear</b> menu and press <b>SET</b>, or tap <b>START A NEW LIST</b> to make one on the phone.</li>
-      <li>A new key is shown <b>once</b>. Save it somewhere &mdash; it cannot be recovered if you lose it.</li>
+      <li>A new key is shown <b>once</b>. Save it somewhere &mdash; it is not shown again.</li>
       <li>No key? It still works as a private list on that device and says <b>SYNC has no KEY</b>. That is a normal state, not an error.</li>
     </ol>
     <p class="subh">What's new</p>
