@@ -1,10 +1,16 @@
 {
-  "generated": "2026-10-18",
+  "generated": "2026-10-20",
   "apps": {
+    "voygr": {
+      "version": "V30",
+      "versionCode": 3000,
+      "page": "https://rydnsoftware.com/voygr/",
+      "published": "2026-10-20"
+    },
     "player": {
       "version": "V22.1",
       "versionCode": 2210,
-      "page": "https://rydnsoftware.com/",
+      "page": "https://rydnsoftware.com/player/",
       "published": "2026-10-18"
     }
   }
