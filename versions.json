@@ -12,6 +12,12 @@
       "versionCode": 2210,
       "page": "https://rydnsoftware.com/player/",
       "published": "2026-10-18"
+    },
+    "levelbest": {
+      "version": "V33",
+      "versionCode": 3300,
+      "page": "https://rydnsoftware.com/levelbest/",
+      "published": "2026-10-20"
     }
   }
 }
