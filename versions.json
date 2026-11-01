@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22",
+  "generated": "2026-10-29",
   "apps": {
     "voygr": {
       "version": "V30",
@@ -14,10 +14,10 @@
       "published": "2026-10-18"
     },
     "dostack": {
-      "version": "V30",
-      "versionCode": 3000,
+      "version": "V30.1",
+      "versionCode": 3001,
       "page": "https://rydnsoftware.com/dostack/",
-      "published": "2026-10-21"
+      "published": "2026-10-29"
     },
     "habits": {
       "version": "V2",
